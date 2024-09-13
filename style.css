@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header{
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 600;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1s ease-in forwards;
+}
+
+header p{
+    font-size: 1.6em;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+header a{
+    color: #fff;
+    margin-top: 1em;
+    display: inline-block;
+    font-size: 2em;
+    transition: transform 0.3s;
+}

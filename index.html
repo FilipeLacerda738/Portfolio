@@ -19,18 +19,28 @@
 </head>
 <body>
     <header>
-        <h1>Olá, sou Filipe</h1>
-        <p>Programador Front-End | Estudante de Desenvolvimento Web</p>
-        <a href="https://github.com/FilipeLacerda738" target="_blank">
-            <i class="fab fa-github"></i>
-        </a>
-        <a href="#about" class="btn">Descubra mais</a>
-        
+        <div class="header-content">
+            <h1>Olá, sou Filipe</h1>
+            <p>Programador back-end | Estudante de Desenvolvimento Web</p>
+            <a href="https://github.com/FilipeLacerda738" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <section id="about">
         <h2>Sobre mim</h2>
-        <p>Olá, sou o Filipe, estudante de Desenvolvimento Web pela faculdade Anhanguera. Sou totalmente iniciante no mundo da programação e este é o meu primeiro projeto. Estou aprendendo e melhorando meus conhecimentos em front-end, porém com foco maior no desenvolvimento back-end.</p>
+        <p>Olá, sou o Filipe, estudante de Desenvolvimento Web pela faculdade Anhanguera. Estou aprendendo e melhorando meus conhecimentos em front-end, com foco no desenvolvimento back-end.</p>
     </section>
+
     <section id="skills">
         <h2>Minhas habilidades</h2>
         <ul>
@@ -38,39 +48,29 @@
             <li><strong>CSS:</strong> 50%</li>
             <li><strong>JavaScript:</strong> 70%</li>
             <li><strong>Node.js:</strong> 50%</li>
-            <li><strong>Python</strong> 50%</li>
+            <li><strong>Python:</strong> 50%</li>
         </ul>
     </section>
+
     <section id="projects">
         <h2>Meus projetos</h2>
-        <div class="project">
+        <div class="project-card">
             <h3>Conversor de Moedas</h3>
-            <p>
-                O Conversor de Moedas é uma aplicação web simples que permite aos usuários converter valores entre três moedas diferentes: Dólar (USD), Euro (EUR) e Real (BRL). O site calcula o valor convertido com base nas taxas de câmbio predefinidas.</p>
+            <p>Uma aplicação web para converter valores entre Dólar, Euro e Real.</p>
             <a href="https://filipelacerda738.github.io/Conversor-de-Moedas/" class="btn" target="_blank">Ver projeto</a>
         </div>
-        <br>
+
+        <div class="project-card">
             <h3>Auto Clicker</h3>
-            <p>O Auto Clicker é uma aplicação desenvolvida em Python com uma interface gráfica intuitiva criada com Tkinter. Ele foi projetado para automatizar cliques do mouse, tornando-se uma ferramenta prática para otimizar tarefas repetitivas.</p>
-                <br>
-                <strong>Funcionalidades principais:</strong>
-                <br>
-                <p>Personalização do intervalo entre cliques (em milissegundos).
-                    Botões simples e acessíveis para iniciar e interromper o processo com facilidade.
-                    Novas atualizações estão em desenvolvimento e serão lançadas em breve, trazendo ainda mais funcionalidades e melhorias!</p>
+            <p>Uma aplicação em Python para automatizar cliques do mouse.</p>
             <a href="https://github.com/FilipeLacerda738/autoClicker" class="btn" target="_blank">Ver Projeto</a>
         </div>
-        <br>
-        <br>
-        <div class="project">
+
+        <div class="project-card">
             <h3>Encurtador de Links</h3>
-            <p>Este projeto foi desenvolvido utilizando HTML, CSS e JavaScript.</p>
-            
-            <strong>Como funciona:</strong>
-            <p>Com a integração da API TinyURL, basta inserir qualquer URL no campo 
-                indicado para gerar um link encurtado rapidamente.</p>
+            <p>Ferramenta baseada na API TinyURL para encurtar URLs rapidamente.</p>
             <a href="https://filipelacerda738.github.io/encurtadorLink/" class="btn" target="_blank">Ver Projeto</a>
-        </div>        
+        </div>
     </section>
 
     <section id="contact">
@@ -86,11 +86,8 @@
     <footer>
         <p>© 2024 Filipe - Estudante de Desenvolvimento Web</p>
     </footer>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="script.js"></script>
-    <script src="theme-toggle.js"></script>
 </body>
 </html>

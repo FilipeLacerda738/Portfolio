@@ -1,16 +1,98 @@
-# React + Vite
+# 💻 George Filipe | FullStack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+</div>
 
-## React Compiler
+<br>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Portfólio pessoal desenvolvido para apresentar minha trajetória, experiências, projetos e habilidades como Desenvolvedor Full Stack.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Sobre o Projeto
+
+Este projeto foi construído com foco em criar uma experiência moderna, interativa e visualmente atraente para visitantes, recrutadores e potenciais clientes.
+
+O design segue uma identidade inspirada em ambientes de desenvolvimento, utilizando uma paleta escura com detalhes em esmeralda e ciano. Além da estética, o portfólio prioriza:
+
+- Alta performance
+- Responsividade em todos os dispositivos
+- Navegação intuitiva
+- Animações suaves
+- Experiência imersiva
+
+As animações são gerenciadas através do **Framer Motion**, proporcionando efeitos de entrada, transições e interações baseadas no scroll da página.
+
+---
+
+## 🛠️ Stack Tecnológica
+
+### Front-end
+
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS v4
+- 🎬 Framer Motion
+- 🎯 Lucide React
+
+### Recursos
+
+- Componentização reutilizável
+- Layout responsivo
+- Scroll Reveal Animations
+- Design moderno e minimalista
+- Otimização para performance
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+src/
+├── assets/
+├── components/
+├── sections/
+├── hooks/
+├── data/
+├── App.jsx
+└── main.jsx
+```
+---
+
+## 🌐 Deploy
+
+O deploy é realizado automaticamente através da Netlify.
+
+Sempre que uma nova alteração é enviada para a branch `main`, uma nova versão é gerada e publicada em produção de forma contínua.
+
+---
+
+## 📸 Preview
+
+```md
+![Preview do Projeto](/public/preview.png)
+```
+
+---
+
+## 📫 Contato
+
+- GitHub: https://github.com/FilipeLacerda738
+- LinkedIn: Adicione seu LinkedIn
+- E-mail: Adicione seu e-mail
+
+---
+
+<div align="center">
+
+### 🚀 Construído por George Filipe
+
+Desenvolvido com dedicação, boas práticas e paixão por tecnologia.
+
+</div>

@@ -78,15 +78,6 @@ Sempre que uma nova alteração é enviada para a branch `main`, uma nova versã
 ```md
 ![Preview do Projeto](/public/preview.png)
 ```
-
----
-
-## 📫 Contato
-
-- GitHub: https://github.com/FilipeLacerda738
-- LinkedIn: Adicione seu LinkedIn
-- E-mail: Adicione seu e-mail
-
 ---
 
 <div align="center">
